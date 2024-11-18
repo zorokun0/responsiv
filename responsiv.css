@@ -1,0 +1,59 @@
+@media (max-width:600px) {
+    
+    .nav{
+        height: 80px;   
+    }
+    .nav2 h4{
+         display: none;
+    }
+    .nav2 button{
+        display: none;
+    } 
+
+    .nav2 i{
+        display: block;
+    }
+    .logo{
+        font-size: 30px;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav2{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+       height: 50%;
+    }
+
+    .left h1{
+        font-size: 7vw;
+        line-height: 8vw;
+    }
+
+    .left p{
+        margin-top: 2vw;
+        font-size: 4vw;
+    }
+
+    .left button{
+        height: 8vw;
+        width: 20vw;
+        font-size:3vw ;
+    }
+    .right{
+        width: 100%;
+        height: 50%;
+    }
+
+
+}
